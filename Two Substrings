@@ -1,0 +1,7 @@
+s=input()
+s=s.upper()
+
+if 'AB' in s and 'BA' in s:
+    print("yes")
+else:
+    print("no")
