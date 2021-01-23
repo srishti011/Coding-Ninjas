@@ -1,0 +1,19 @@
+basic,grade=input().split()
+basic=int(basic)
+grade=grade.upper()
+
+hra=(20/100)*basic
+da=(50/100)*basic
+
+if grade=='A':
+    allow=1700
+elif grade=='B':
+    allow=1500
+else:
+    allow=1300
+    
+pf=(11/100)*basic
+
+total=basic+hra+da+allow-pf
+total=round(total)
+print(total)
